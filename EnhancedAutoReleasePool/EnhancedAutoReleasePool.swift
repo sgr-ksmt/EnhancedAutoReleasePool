@@ -46,3 +46,4 @@ public func autoreleasepool<V>(@noescape code: () throws -> V?) rethrows -> V? {
 public func autoreleasepool<V>(@noescape code: () throws -> V) rethrows -> V {
     return try autoreleasepool(code)!
 }
+
